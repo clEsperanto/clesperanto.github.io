@@ -12,7 +12,7 @@ Many algorithms will be re-implemented in the coming years for GPUs. Let's make 
 
 ![Image](images/clijmapy.png)
 
-This screenshot collage is not a thought up. You can download plugins for these platforms and reproduce it: Copy-paste code between languages and platforms!
+This screenshot collage is not thought up. You can download plugins for these platforms and reproduce it: Copy-paste code between languages and platforms!
 * [Fiji](https://clij.github.io/)
 * [Icy](https://clij.github.io/clicy/)
 * [Matlab](https://clij.github.io/clatlab/)
@@ -26,7 +26,7 @@ This is how image analysts could work together between languages and platforms:
 
 Excited? Get in touch!
 
-Robert Haase 
-rhaase at mpi minus cbg dot de 
-@haesleinhuepf 
+Robert Haase  
+rhaase at mpi minus cbg dot de  
+@haesleinhuepf  
 

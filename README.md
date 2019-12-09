@@ -1,7 +1,7 @@
 # clEsperanto
 
 clEsperanto aims _removing language barriers_ in the scientific image analysis community. 
-What if image analysists working with [Fiji](https://fiji.sc), [Icy](http://icy.bioimageanalysis.org/), [ImageJ](https://imagej.net), [Matlab](https://de.mathworks.com/products/matlab.html), [Python](https://python.org) and others would write their workflows with the same commands? What if the backend behind would be the same?
+What if image analysts working with [Fiji](https://fiji.sc), [Icy](http://icy.bioimageanalysis.org/), [ImageJ](https://imagej.net), [Matlab](https://de.mathworks.com/products/matlab.html), [Python](https://python.org) and others would write their workflows with the same commands? What if the backend behind would be the same?
 What if these algorithms would run with insane speeds because they are [GPU-accelerated](https://en.wikipedia.org/wiki/Graphics_processing_unit)?
 Many algorithms will be re-implemented in the coming years for GPUs. Let's make them available 
 * on all major hardware platforms, 

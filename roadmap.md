@@ -30,7 +30,7 @@ broader audience.
    2. Translating ClearCL to Python/... (by exploiting e.g. [PyOpenCL](https://pypi.org/project/pyopencl/) ) and ensuring that all platforms do the same
 2. API design
    1. Determining if the CLIJ2 API is generic enough to be accessible from all platforms / if code can be copy-pasted between languages.
-   2. Finding ways for language specific [auto-generating APIs like in CLIJ2](https://github.com/clij/clij-advanced-filters/blob/master/src/test/java/net/haesleinhuepf/clijx/codegenerator/OpGenerator.java). 
+   2. Finding ways for language specific [auto-generating APIs like in CLIJ2](https://github.com/clij/clij2-code-generators/blob/master/src/test/java/net/haesleinhuepf/clijx/codegenerator/OpGenerator.java). 
 2. Wrapper development
    1. Java
    2. Python
@@ -40,7 +40,7 @@ broader audience.
 3. User-documentation
    1. Introductory, partly generic, partly language specific
    2. Examples for all languages (Example generator?)
-   3. [Documentation generator as in CLIJ2](https://github.com/clij/clij-advanced-filters/blob/master/src/test/java/net/haesleinhuepf/clijx/codegenerator/DocumentationGenerator.java).
+   3. [Documentation generator as in CLIJ2](https://github.com/clij/clij2-code-generators/blob/master/src/test/java/net/haesleinhuepf/clijx/codegenerator/DocumentationGenerator.java).
 4. Testing
    1. Automated tests for all platforms
    2. Integration tests, manual user-experience tests

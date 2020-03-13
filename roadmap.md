@@ -27,7 +27,7 @@ broader audience.
 ## Major tasks
 1. Core development; at least two alternatives:
    1. Translating [ClearCL](https://github.com/clij/clij-clearcl) to either C++ and wrapping from Python/Java/...
-   2. Translating ClearCL to Python/... (by exploiting e.g. [PyOpenCL](https://pypi.org/project/pyopencl/) ) and ensuring that all platforms do the same
+   2. Translating ClearCL to Python/... (by exploiting e.g. [PyOpenCL](https://pypi.org/project/pyopencl/) and/or [gputools](https://github.com/maweigert/gputools)) and ensuring that all platforms do the same
 2. API design
    1. Determining if the CLIJ2 API is generic enough to be accessible from all platforms / if code can be copy-pasted between languages.
    2. Finding ways for language specific [auto-generating APIs like in CLIJ2](https://github.com/clij/clij2-code-generators/blob/master/src/test/java/net/haesleinhuepf/clijx/codegenerator/OpGenerator.java). 

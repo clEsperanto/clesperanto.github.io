@@ -26,7 +26,8 @@ broader audience.
 
 ## Major tasks
 1. Core development; at least two alternatives:
-   1. Translating [ClearCL](https://github.com/clij/clij-clearcl) to either C++ and wrapping from Python/Java/...
+   1. Translating [ClearCL](https://github.com/clij/clij-clearcl) to either C++ and wrapping from Python/Java/... Similar strategies have been implemented in [3DScript](https://github.com/bene51/3Dscript/tree/master/3D_Animation_Native), 
+[ITKOpenCL](https://github.com/InsightSoftwareConsortium/ITKOpenCL) and [HIP](https://github.com/ericwait/hydra-image-processor)
    2. Translating ClearCL to Python/... (by exploiting e.g. [PyOpenCL](https://pypi.org/project/pyopencl/) and/or [gputools](https://github.com/maweigert/gputools)) and ensuring that all platforms do the same. A basic prototype for [python exists already](https://github.com/clEsperanto/pyclesperanto_prototype)
 2. API design
    1. Determining if the CLIJ2 API is generic enough to be accessible from all platforms / if code can be copy-pasted between languages.

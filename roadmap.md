@@ -83,3 +83,5 @@ July 2021: Discussion of achievements and making a plan for version 2.0
 
 ## Potential future extensions
 CUDA support?
+* https://developer.nvidia.com/rapids
+* https://www.hydraimageprocessor.com/

@@ -28,6 +28,7 @@ broader audience.
 1. Core development; at least two alternatives:
    1. Translating [ClearCL](https://github.com/clij/clij-clearcl) to either C++ and wrapping from Python/Java/... Similar strategies have been implemented in [3DScript](https://github.com/bene51/3Dscript/tree/master/3D_Animation_Native), 
 [ITKOpenCL](https://github.com/InsightSoftwareConsortium/ITKOpenCL) and [HIP](https://github.com/ericwait/hydra-image-processor)
+      1. Use the OpenCL C++ Wrapper API https://www.khronos.org/registry/OpenCL/specs/opencl-cplusplus-1.2.pdf
    2. Translating ClearCL to Python/... (by exploiting e.g. [PyOpenCL](https://pypi.org/project/pyopencl/) and/or [gputools](https://github.com/maweigert/gputools)) and ensuring that all platforms do the same. A basic prototype for [python exists already](https://github.com/clEsperanto/pyclesperanto_prototype)
 2. API design
    1. Determining if the CLIJ2 API is generic enough to be accessible from all platforms / if code can be copy-pasted between languages.
@@ -38,6 +39,7 @@ broader audience.
    3. Macro
    4. C++
    5. ITK
+   6. Julia (via [OpenCL.jl](https://github.com/JuliaGPU/OpenCL.jl))
 3. User-documentation
    1. Introductory, partly generic, partly language specific
    2. Examples for all languages (Example generator?)
@@ -61,6 +63,7 @@ broader audience.
    6. Icy JavaScript
    7. C++
    8. Fiji Groovy
+   9. Julia
 3. Hardware (OpenCL version > 1.2)
    1. Intel HD GPUs
    2. NVidia GTX/RTX
@@ -70,7 +73,7 @@ broader audience.
 
 June 2020: Core development start
 
-September 2020: Java/Pythong wrappers development start
+September 2020: Java/Python wrappers development start
 
 December 2020: Core is functional, major wrapper code done.
 

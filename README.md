@@ -18,7 +18,7 @@ This screenshot collage is not thought up. You can download plugins for these pl
 * [Matlab](https://clij.github.io/clatlab/)
 * [Python](https://clij.github.io/clijpy/)
 
-You find the [reference online](https://clij.github.io/clij-advanced-filters/reference) of currently implemented commands.
+You find the [reference online](https://clij.github.io/clij2-docs/reference) of currently implemented commands.
 
 This is how image analysts could work together between languages and platforms:
 <iframe src="images/clijmapy.mp4" width="540" height="310"></iframe>

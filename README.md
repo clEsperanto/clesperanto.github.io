@@ -16,7 +16,8 @@ This screenshot collage is not thought up. You can download plugins for these pl
 * [Fiji](https://clij.github.io/)
 * [Icy](https://clij.github.io/clicy/)
 * [Matlab](https://clij.github.io/clatlab/)
-* [Python](https://clij.github.io/clijpy/)
+* [Python via pyImageJ](https://clij.github.io/clijpy/)
+* [Pyhton](https://github.com/clEsperanto/pyclesperanto_prototype/)
 
 You find the [reference online](https://clij.github.io/clij2-docs/reference) of currently implemented commands.
 

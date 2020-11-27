@@ -18,8 +18,9 @@ This screenshot collage is not thought up. You can download plugins for these pl
 * [Matlab](https://clij.github.io/clatlab/)
 * [Python via pyImageJ](https://clij.github.io/clijpy/)
 * [Pyhton](https://github.com/clEsperanto/pyclesperanto_prototype/)
+* [C++](https://github.com/clEsperanto/CLIc_prototype)
 
-You find the [reference online](https://clij.github.io/clij2-docs/reference) of currently implemented commands.
+You find the [reference online](https://clij.github.io/clij2-docs/reference) of currently implemented commands. Also our provisional roadmap is [available](https://github.com/clEsperanto/clesperanto.github.io/blob/master/roadmap.md).
 
 This is how image analysts could work together between languages and platforms:
 <iframe src="images/clijmapy.mp4" width="540" height="310"></iframe>

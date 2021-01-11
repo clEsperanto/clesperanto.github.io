@@ -29,7 +29,7 @@ This is how image analysts could work together between languages and platforms:
 Excited? Get in touch!
 
 Robert Haase  
-rhaase at mpi minus cbg dot de  
+robert dot haase at tu minus dresden dot de  
 @haesleinhuepf  
 
 

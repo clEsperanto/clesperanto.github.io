@@ -16,7 +16,6 @@ This screenshot collage is not thought up. You can download plugins for these pl
 * [Fiji](https://clij.github.io/)
 * [Icy](https://clij.github.io/clicy/)
 * [Matlab](https://clij.github.io/clatlab/)
-* [Python via pyImageJ](https://clij.github.io/clijpy/)
 * [Python](https://github.com/clEsperanto/pyclesperanto_prototype/)
 * [C++](https://github.com/clEsperanto/CLIc_prototype)
 

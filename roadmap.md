@@ -28,8 +28,10 @@ broader audience.
 1. Core development: Translating [ClearCL](https://github.com/clij/clij-clearcl) to C++ and wrapping from Python/Java/...
    1. [CLIc](https://github.com/clEsperanto/CLIc_prototype) via [OpenCL C++ Wrapper API](https://www.khronos.org/registry/OpenCL/specs/opencl-cplusplus-1.2.pdf)
    2. Python wrapper alternatives:
-       1. [HIP's python wrapper](https://github.com/ericwait/hydra-image-processor)
-       2. [pybind11](https://github.com/pybind/pybind11)
+       1. [cython](https://cython.org/)
+       2. [HIP's python wrapper](https://github.com/ericwait/hydra-image-processor)
+       3. [pybind11](https://github.com/pybind/pybind11)
+       4. [SWIG](http://www.swig.org/Doc1.3/Python.html)
    3. Java wrapper alternatives:
        1. [Javacpp](https://github.com/bytedeco/javacpp)
 2. API design

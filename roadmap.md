@@ -78,17 +78,23 @@ broader audience.
 
 June 2020: Core development start
 
-September 2020: Java/Python wrappers development start
+April 2021: Define new opencl-kernel format + documentation
 
-December 2020: Core is functional, major wrapper code done.
+July 2021: Reorganization of opencl-kernels
 
-February 2021: Alpha release of a minimal set of functions running on all target platforms and GPU hardware.
+September 2021: Java/Python wrappers development start
 
-May 2021: Beta-release of full functionality
+September 2021: API mostly defined
 
-June 2021: Release of version 1.0. Code freeze to prevent breaking backwards compatibility
+December 2021: Core is functional, major wrapper code done.
 
-July 2021: Discussion of achievements and making a plan for version 2.0
+February 2022: Alpha release of a minimal set of functions running on all target platforms and GPU hardware.
+
+May 2022: Beta-release of full functionality
+
+June 2022: Release of version 1.0. Code freeze to prevent breaking backwards compatibility
+
+July 2022: Discussion of achievements and making a plan for version 2.0
 
 ## Potential future extensions
 CUDA support?

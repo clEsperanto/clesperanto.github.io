@@ -25,27 +25,30 @@ To achieve our goals, we plan to adapt the [CLIJ](https://clij.github.io/) proje
 broader audience.
 
 ## Major tasks
-1. Core development; at least two alternatives:
-   1. Translating [ClearCL](https://github.com/clij/clij-clearcl) to either C++ and wrapping from Python/Java/... Strategies could be using/adapted from:
-      1. [OpenCL C++ Wrapper API](https://www.khronos.org/registry/OpenCL/specs/opencl-cplusplus-1.2.pdf)
-      2. [3DScript](https://github.com/bene51/3Dscript/tree/master/3D_Animation_Native)
-      3. [ITKOpenCL](https://github.com/InsightSoftwareConsortium/ITKOpenCL)
-      4. [HIP](https://github.com/ericwait/hydra-image-processor)
-   2. Translating ClearCL to Python/... (by exploiting e.g. [PyOpenCL](https://pypi.org/project/pyopencl/) and/or [gputools](https://github.com/maweigert/gputools)) and ensuring that all platforms do the same. A basic prototype for [python exists already](https://github.com/clEsperanto/pyclesperanto_prototype)
+1. Core development: Translating [ClearCL](https://github.com/clij/clij-clearcl) to C++ and wrapping from Python/Java/...
+   1. [CLIc](https://github.com/clEsperanto/CLIc_prototype) via [OpenCL C++ Wrapper API](https://www.khronos.org/registry/OpenCL/specs/opencl-cplusplus-1.2.pdf)
+   2. Python wrapper alternatives:
+       1. [cython](https://cython.readthedocs.io/en/latest/src/userguide/wrapping_CPlusPlus.html)
+       2. [HIP's python wrapper](https://github.com/ericwait/hydra-image-processor)
+       3. [pybind11](https://github.com/pybind/pybind11)
+       4. [SWIG](http://www.swig.org/Doc1.3/Python.html)
+   3. Java wrapper alternatives:
+       1. [Javacpp](https://github.com/bytedeco/javacpp)
 2. API design
    1. Determining if the CLIJ2 API is generic enough to be accessible from all platforms / if code can be copy-pasted between languages.
    2. Finding ways for language specific [auto-generating APIs like in CLIJ2](https://github.com/clij/clij2-code-generators/blob/master/src/test/java/net/haesleinhuepf/clijx/codegenerator/OpGenerator.java). 
+   3. Explore potential API-compatibility with [scipy](https://www.scipy.org/) / [cupy](https://cupy.dev/).
+   4. Memory management (see [image.sc forum](https://forum.image.sc/t/clesperanto-getmemory/46323))
 2. Wrapper development
-   1. Java
+   1. C++
    2. Python
-   3. Macro
-   4. C++
-   5. ITK
-   6. Julia (via [OpenCL.jl](https://github.com/JuliaGPU/OpenCL.jl))
+   3. Java
+   4. Macro
 3. User-documentation
    1. Introductory, partly generic, partly language specific
    2. Examples for all languages (Example generator?)
    3. [Documentation generator as in CLIJ2](https://github.com/clij/clij2-code-generators/blob/master/src/test/java/net/haesleinhuepf/clijx/codegenerator/DocumentationGenerator.java).
+   4. [Four kinds of documentation](https://www.writethedocs.org/videos/eu/2017/the-four-kinds-of-documentation-and-why-you-need-to-understand-what-they-are-daniele-procida/)
 4. Testing
    1. Automated tests for all platforms
    2. Integration tests, manual user-experience tests
@@ -65,29 +68,39 @@ broader audience.
    6. Icy JavaScript
    7. C++
    8. Fiji Groovy
-   9. Julia
 3. Hardware (OpenCL version > 1.2)
    1. Intel HD GPUs
    2. NVidia GTX/RTX
    3. AMD GPUs (Vega)
+   4. Apple Silicon M1
 
 ## Timeline
 
 June 2020: Core development start
 
-September 2020: Java/Python wrappers development start
+April 2021: Define new opencl-kernel format + documentation
 
-December 2020: Core is functional, major wrapper code done.
+July 2021: Reorganization of opencl-kernels
 
-February 2021: Alpha release of a minimal set of functions running on all target platforms and GPU hardware.
+September 2021: Java/Python wrappers development start
 
-May 2021: Beta-release of full functionality
+September 2021: API mostly defined
 
-June 2021: Release of version 1.0. Code freeze to prevent breaking backwards compatibility
+December 2021: Core is functional, major wrapper code done.
 
-July 2021: Discussion of achievements and making a plan for version 2.0
+February 2022: Alpha release of a minimal set of functions running on all target platforms and GPU hardware.
+
+May 2022: Beta-release of full functionality
+
+June 2022: Release of version 1.0. Code freeze to prevent breaking backwards compatibility
+
+July 2022: Discussion of achievements and making a plan for version 2.0
 
 ## Potential future extensions
 CUDA support?
 * https://developer.nvidia.com/rapids
 * https://www.hydraimageprocessor.com/
+
+Compatiblilty with
+* ITK
+* Julia (via [OpenCL.jl](https://github.com/JuliaGPU/OpenCL.jl))
